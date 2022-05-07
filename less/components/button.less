@@ -1,0 +1,40 @@
+.button{
+  .no-appearence;
+  border: 2px solid @verylightgray;
+  background-color: @verylightgray;
+  padding: .8rem 1.8rem;
+  border-radius: 1.5rem;
+  font-weight: 400;
+  letter-spacing: .5px;
+  font-family: @lexend-deca;
+  cursor: pointer;
+
+  &::first-letter{
+    text-transform: capitalize;
+  }
+
+  &-brightorange{
+    color: @brightorange;
+    &:hover{
+      color: @verylightgray;
+      background-color: @brightorange;
+    }
+  }
+
+  &-darkcyan{
+    color: @darkcyan;
+    &:hover{
+      color: @verylightgray;
+      background-color: @darkcyan;
+    }
+  }
+
+  &-verydarkcyan{
+    color: @verydarkcyan;
+    &:hover{
+      color: @verylightgray;
+      background-color: @verydarkcyan;
+    }
+  }
+
+}
